@@ -1,0 +1,176 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gadda/Desktop/VLSIGURU/sv/sv_assignement/sv_mem_project
+T_opt
+!s110 1756921824
+VMQBNFnUWa`2[>HU6X=bl>0
+04 3 4 work top fast 0
+=3-90e8681dd545-68b87fe0-266-5f50
+o-quiet -auto_acc_if_foreign -work work -suppress 12110
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+Xlist_svh_unit
+!s115 mem_intf
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VI[U@IJH@iXb@dP<j2ZR6m1
+r1
+!s85 0
+!i10b 1
+!s100 :^_h68c8i]Kj3iXMZTYD[0
+II[U@IJH@iXb@dP<j2ZR6m1
+!i103 1
+S1
+R0
+w1758644962
+8list.svh
+Flist.svh
+Z3 Fmemory.v
+Fmem_common.sv
+Z4 Fmem_intf.sv
+Z5 Fmem_assert.sv
+Fmem_tx.sv
+Fmem_gen.sv
+Fmem_bfm.sv
+Fmem_cov.sv
+Fmem_mon.sv
+Fmem_sbd.sv
+Fmem_agt.sv
+Fmem_env.sv
+Z6 Fmem_top.sv
+L0 4
+Z7 OL;L;10.7c;67
+31
+Z8 !s108 1759209478.000000
+Z9 !s107 mem_top.sv|mem_env.sv|mem_agt.sv|mem_sbd.sv|mem_mon.sv|mem_cov.sv|mem_bfm.sv|mem_gen.sv|mem_tx.sv|mem_assert.sv|mem_intf.sv|mem_common.sv|memory.v|list.svh|
+Z10 !s90 -reportprogress|300|list.svh|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmem_assert
+R2
+Z12 DXx4 work 13 list_svh_unit 0 22 I[U@IJH@iXb@dP<j2ZR6m1
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 RlNYXUNVFP7c?bK2P`Wja3
+I2EV1ojk6HLfF9[zY^lU1=1
+Z14 !s105 list_svh_unit
+S1
+R0
+w1757319902
+8mem_assert.sv
+R5
+L0 3
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+Ymem_intf
+R2
+R12
+R13
+r1
+!s85 0
+!i10b 1
+!s100 FoC88V]fFRR>dTQiAhm5T3
+I7JWZ8IVKOmHzjhUA5[GVL0
+R14
+S1
+R0
+w1757347352
+8mem_intf.sv
+R4
+L0 5
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+4mem_program
+R2
+DXx4 work 13 list_svh_unit 0 22 3RSJGFT7L;kAOdL]m4eQ13
+R13
+r1
+!s85 0
+!i10b 1
+!s100 @GoIRLk]kc_HC2FE>QTMI0
+IXS:Wn1lE3W:S63d<<4naO2
+R14
+S1
+R0
+w1756913225
+8mem_program.sv
+Fmem_program.sv
+L0 1
+R7
+31
+!s108 1756923361.000000
+!s107 mem_top.sv|mem_program.sv|mem_env.sv|mem_agt.sv|mem_sbd.sv|mem_cov.sv|mem_mon.sv|mem_bfm.sv|mem_gen.sv|mem_tx.sv|mem_intf.sv|mem_common.sv|memory.v|list.svh|
+R10
+!i113 0
+R11
+R1
+vmemory
+R2
+R13
+r1
+!s85 0
+!i10b 1
+!s100 QFhz>6D?>mndY>Md?6P;R1
+I_IgO3]dZU_iSAmj9FK4No0
+R14
+S1
+R0
+w1756660973
+8memory.v
+R3
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtop
+R2
+R12
+R13
+r1
+!s85 0
+!i10b 1
+!s100 P`bmUBPP@Pd2;4c@;X_OP1
+ILi[7g0LoZfF8[<f7@Jb3S2
+R14
+S1
+R0
+w1757320205
+8mem_top.sv
+R6
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

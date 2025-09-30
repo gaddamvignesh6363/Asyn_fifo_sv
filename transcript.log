@@ -1,0 +1,41 @@
+# vsim top -assertdebug -novopt -suppress 12110 "+testcase=N_writes_N_reads" "+N=4" "+num_agents=5" -sv_seed 657483920 -l transcript.log 
+# Start time: 10:47:59 on Sep 30,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing C:/Users/gadda/Desktop/VLSIGURU/sv/sv_assignement/sv_mem_project/work.top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing C:/Users/gadda/Desktop/VLSIGURU/sv/sv_assignement/sv_mem_project/work.list_svh_unit
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading sv_std.std
+# Loading work.list_svh_unit
+# Loading work.top
+# Refreshing C:/Users/gadda/Desktop/VLSIGURU/sv/sv_assignement/sv_mem_project/work.mem_intf
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mem_intf
+# Refreshing C:/Users/gadda/Desktop/VLSIGURU/sv/sv_assignement/sv_mem_project/work.memory
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.memory
+# Refreshing C:/Users/gadda/Desktop/VLSIGURU/sv/sv_assignement/sv_mem_project/work.mem_assert
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mem_assert
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: mem_top.sv Line: 41
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: mem_top.sv Line: 42
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: mem_top.sv Line: 43
+# ** Warning: (vsim-8637) A modport ('bfm_mp') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /list_svh_unit File: mem_bfm.sv Line: 14
+# ** Warning: (vsim-8637) A modport ('bfm_mp') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /list_svh_unit File: mem_bfm.sv Line: 26
+# ** Warning: (vsim-3839) Variable '/top/pif/rdata', driven via a port connection, is multiply driven. See mem_top.sv(9).
+#    Time: 0 ns  Iteration: 0  Instance: /top/assert_inst File: mem_top.sv Line: 11
+# ** Warning: (vsim-3839) Variable '/top/pif/ready', driven via a port connection, is multiply driven. See mem_top.sv(9).
+#    Time: 0 ns  Iteration: 0  Instance: /top/assert_inst File: mem_top.sv Line: 11
+# ** Error: Cannot open macro file: exclude.do
+# Error in macro ./run.do line 8
+# Cannot open macro file: exclude.do
+#     while executing
+# "do exclude.do"
+# Saving coverage database on exit...
+# End time: 10:49:52 on Sep 30,2025, Elapsed time: 0:01:53
+# Errors: 3, Warnings: 8
